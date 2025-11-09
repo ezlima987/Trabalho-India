@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+  * {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header {
+    height: 75px;
+    background-color:#C5C5C5; /* ajeitar depois da paleta */
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+p {
+    font-size: 18px;
+    color: white;
+}
+
+h1 {
+    font-size: 36px;
+    color: black;
+}
+
+.container {
+    height: 100%;
+    width: 1200px;
+    min-width: 1050px;
+    display: flex;
+    margin: 0 auto;
+    min-height: 75px;
+    max-height: 75px;
+}
+
+.logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    width: 60%;
+    height: 100%;
+}
+
+.entrar {
+    width: 10%;
+    height: 100%;
+}
+
+.cadastrar{
+    width: 10%;
+    height: 100%;
+}
+
+.logo img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.container ul{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    gap: 5px;
+}
+
+.container li{
+    list-style: none;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.container li:hover {
+    background-color: white;
+    color: black; /* corrigir depois de decidir a paleta */
+}
+ .container nav{
+    height: 100%;
+ }
+
+ .entrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .botaoEntrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 15px 20px;
+    border: 2px solid white ;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+
+ .botaoEntrar:hover {
+    background-color:white;
+    color: black; /* ajeitar depois */
+ }
+
+ /*
+ .ativo {
+    background-color: white;
+    color: black;
+}
+
+utilizar na pagina selecionada
+*/
+ 
+.cadastrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botaoCadastrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 15px 20px;
+    border: 2px solid white ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botaoCadastrar:hover {
+    background-color:white;
+    color: black;
+}
+
+body{
+    min-width: 1050px;
+    height: 100vh;
+
+}
+
+main{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.formulario{
+    height: 700px;
+    width: 700px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    padding: 20px 40px;
+
+}
+
+.titulo h1 {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #D9D9D9;
+    padding: 50px;
+}
+
+.digite p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.digite input {
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    width: 100%;
+    padding: 5px 50px;
+    height: 50px;
+    width: 600px;
+}
+
+.digite {
+    height: 600px 50px;
+}
+
+.email {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.senha {
+    margin-bottom: 30px;
+}
+
+.botao {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: white ;
+    color: black;
+}
+
+.redirecionar {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.redirecionar a {
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: #974315;
+}
+
+.termos {
+     font-weight: 300;
+     font-size: 14px;
+     width: 620px;
+     height: 70px;
+     text-align: left;
+     padding: 10px 85px ;
+     margin-top: 20px;
+}
+
+.termos span {
+    font-weight: bold;
+    cursor: pointer;
+    color: #974315;
+}
+
+footer {
+    height: 60px;
+    background-color:#C5C5C5; /* ajeitar depois da paleta */
+    display: flex;
+}
+.container2 {
+    height: 100%;
+    width: 1200px;
+    min-width: 1050px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape ul {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    gap: 20px;
+}
+
+.rodape li {
+    list-style: none;
+    color: white;
+    
+    
+}
+
+.rodape nav{
+    height: 100%;
+    
+}
+
+
