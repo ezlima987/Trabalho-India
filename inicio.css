@@ -15,6 +15,16 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 /* cabecalho */
 
 header {
@@ -153,7 +163,7 @@ utilizar na pagina selecionada
 
 main {
     color: white;
-    height: calc(100svh - 80px);
+    flex: 1;
     padding-top: 75px;
 }
 
@@ -162,7 +172,87 @@ main {
     margin: 0 auto;
     padding-block: 5px;
     width: 100%;
+    
 }
+
+.mainTop {
+    position: relative;
+    height: 847px;
+    width: 1511px;
+}
+
+.mainTop img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.titulo {
+    position: absolute;
+    top: 13%;  
+    left: 20%;        
+    transform: translate(-50%, 50%); 
+    text-align: center;
+    color: white;
+}
+
+.text {
+    position: absolute;
+    top: 13%;  
+    left: 85%;        
+    transform: translate(-50%, 50%); 
+    text-align: center;
+    color: white;
+}
+
+.mainMid {
+    background-color:#C5C5C5;
+    width: 1010px;
+    height: 170px;
+    padding: 25px 64px;
+    margin: 30px 215px 35px;
+    border-radius: 10px;
+
+}
+
+.subtitulo {
+    justify-items: center;
+    width: 1440px;
+    height: 50px;
+    margin-bottom: 20px;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.cards > div {
+    width: 176px; 
+    text-align: center;
+}
+
+.cards img {
+    width: 176px;
+    height: 99px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cards h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+
+
 
 /* rodape*/
 
@@ -170,6 +260,7 @@ footer {
     height: 60px;
     background-color:#C5C5C5; /* ajeitar depois da paleta */
     display: flex;
+    padding-top: 10px;
 }
 
 .container2 {
@@ -213,4 +304,3 @@ footer {
     bottom: 90px;
     right: 20px;
 }
-
