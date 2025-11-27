@@ -20,7 +20,7 @@
 
 header {
     height: 75px;
-    background-color:#C5C5C5; /* ajeitar depois da paleta */
+    background-color:#527D8F; 
     display: flex;
     position: fixed;
     width: 100%;
@@ -261,7 +261,7 @@ h1 {
 
 footer {
     height: 60px;
-    background-color:#C5C5C5; /* ajeitar depois da paleta */
+    background-color:#527D8F;
     display: flex;
 }
 
@@ -294,8 +294,4 @@ footer {
     height: 100%;
     
 }
-
-/* scroll */
-
-
 
