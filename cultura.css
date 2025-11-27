@@ -189,11 +189,17 @@ main {
     margin-right: 145px;
     margin-top: 145px;
     margin-bottom: 120px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    gap: 30px;
 }
 
 .sub-box-tradicao {
-    width: 600px;
-    height: 400px;
+    display: flex;
+    align-items: center;
+    gap: 30px;            
 }
 
 .box-danca {
@@ -201,6 +207,54 @@ main {
     width: 1440px;
     height: 700px;
     margin-top: 478px;
+    
+}
+
+.box-espiritualidade {
+    background-color: #F0EFEF;
+    width: 1440px;
+    height: 1000px;
+}
+
+.box-diversidade {
+    background-color: #F0EFEF;
+    width: 1440px;
+    height: 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-box-diversidade {
+    background-color: #222D25;
+    height: 850px;
+    width: 1200px;
+}
+
+.box-tradicao img {
+    border-radius: 10px;
+    width: 503px;
+    height: 336px;
+}
+
+.img2 img {
+    border-radius: 10px;
+    width: 800px;
+    height: 545px;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.img3 img {
+    border-radius: 10px;
+    width: 710px;
+    height: 852px;
+}
+
+.img4 img {
+    border-radius: 10px;
+    width: 509px;
+    height: 762px;
 }
 
 /* rodape*/
