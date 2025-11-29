@@ -1,3 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+  * {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* cabecalho */
+
+header {
+    height: 75px;
+    background-color:#235347; 
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;  
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.container {
+    height: 100%;
+    width: 1200px;
+    min-width: 1050px;
+    display: flex;
+    margin: 0 auto;
+    height: 75px;
+}
+
+.logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    width: 60%;
+    height: 100%;
+}
+
+.entrar {
+    width: 10%;
+    height: 100%;
+}
+
+.cadastrar{
+    width: 10%;
+    height: 100%;
+}
+
+.logo img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.container ul{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    gap: 5px;
+}
+
+.container li{
+    list-style: none;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.container li:hover {
+    background-color: white;
+    color: black; /* corrigir depois de decidir a paleta */
+}
+ .container nav{
+    height: 100%;
+ }
+
+ .entrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .botaoEntrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 15px 20px;
+    border: 2px solid black ;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+
+ .botaoEntrar:hover {
+    background-color:white;
+    color: black; /* ajeitar depois */
+ }
+
+ .ativo {
+    background-color: white;
+    color: black;
+}
+
+.cadastrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botaoCadastrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 15px 20px;
+    border: 2px solid white ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botaoCadastrar:hover {
+    background-color:white;
+    color: black;
+}
+
+/* conteudo da pagina */
+
+main {
+    color: white;
+    flex: 1;
+    padding-top: 75px;
+}
+
+.maincontainer {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-block: 5px;
+    width: 100%;
+    
+}
+
+
+/* rodape*/
+
+footer {
+    height: 60px;
+    background-color:#235347; 
+    display: flex;
+    padding-top: 10px;
+}
+
+.container2 {
+    height: 100%;
+    width: 1200px;
+    min-width: 1050px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape ul {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    gap: 20px;
+}
+
+.rodape li {
+    list-style: none;
+    color: white;
+    
+    
+}
+
+.rodape nav{
+    height: 100%;
+    
+}
+
+/* seta */
+
+.arrow {
+    background: white;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+}
+
+
+/*
 * {
     margin: 0;
     padding: 0;
@@ -215,3 +441,5 @@ footer p {
     cursor: pointer;
      box-shadow: 0px 0px 8px #0004;
 }
+
+*/
