@@ -163,31 +163,49 @@ main {
     padding-top: 75px;
 }
 
-.maincontainer {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding-block: 5px;
-    width: 100%;  
+.quiz-main {
+    background-color: #dcdcdc; 
+    display: flex;
+    justify-content: center;
+    
 }
 
-.maincontainer h1 {
-    font-family: "Poppins", sans-serif;
-    font-size: 90px;
-    font-weight: bold;
+.quiz-container {
+    background-color: white;
+    width: 1250px;
+    height: 700px;
+    padding: 90px 425px;
+    margin: 90px 95px;
+    border-radius: 10px;
+    text-align: center;
 }
 
-.maincontainer h2 {
-    font-family: "Poppins", sans-serif;
+.quiz-container h1 {
     font-size: 48px;
-    font-weight: bold;
+    color: #4A3F74;
+    margin-bottom: 40px;
+    font-weight: 700;
 }
 
-.maincontainer P {
-    font-family: "Play", sans-serif;
-    font-size: 24px;
+.quiz-circulo {
+    width: 300px;
+    height: 300px;
+    background-color: #4A3F74; 
+    border-radius: 50%;
+    margin: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-
+.quiz-circulo a {
+    font-size: 140px;
+    color: white;
+    font-weight: 700;
+    line-height: 0;
+}
 /* rodape*/
 
 footer {
@@ -225,16 +243,4 @@ footer {
 .rodape nav{
     height: 100%;
     
-}
-
-/* seta */
-
-.arrow {
-    background: white;
-    width: fit-content;
-    padding: 10px;
-    border-radius: 50%;
-    position: fixed;
-    bottom: 90px;
-    right: 20px;
 }
