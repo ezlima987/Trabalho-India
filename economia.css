@@ -156,6 +156,13 @@ a {
 }
 
 /* conteudo da pagina */
+p {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+}
 
 main {
     background-color: white;
@@ -171,20 +178,20 @@ main {
     
 }
 
-.maincontainer h1 {
+h1 {
     font-family: "Poppins", sans-serif;
     font-size: 90px;
     font-weight: bold;
     color: #fcfaf7;
 }
 
-.maincontainer h2 {
+h2 {
     font-family: "Poppins", sans-serif;
     font-size: 48px;
     font-weight: bold;
 }
 
-.maincontainer P {
+P {
     font-family: "Play", sans-serif;
     font-size: 24px;
     color: #fcfaf7;
@@ -218,7 +225,6 @@ main {
     height: 383;
     position: absolute;
     top: 95px;
-
 }
 
 .DadosGerais {
@@ -228,35 +234,85 @@ main {
 .DadosGerais li {
     width: 40%;
 }
+
 .setores {
     display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;    
+    justify-content: center;
 }
+
 .box-setores {
     background-color: #527D8F;
     margin-top: 20px;
-    height: 792px;
     width: 1220px;
     border-radius: 10px;
-    display: flex; 
-    align-items: center; 
+    padding: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+}
+
+.cards > div {
+    background: white;
+    width: 350px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.cards ul {
+    margin-bottom: 20px;
+}
+
+.cards img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.desafios {
+    margin-top: 50px;
+}
+
+.desafios li {
+    width: 100%;
+    font-size: 24px;
+    color: #fcfaf7;
+}
+
+.desafios p {
+    width: 100%;
+}
+
+.curiosidade p {
+    width: 100%;
+
+}
+ 
+.desafios-container {
+    display: flex;       
+    align-items: center;    
     justify-content: center;
-    gap: 74px;
-}
-p {
-    font-size: 20px;
+    gap: 30px; 
+    margin-top: 50px;
 }
 
-li {
-    font-size: 20px;
+.curiosidade {
+    display: flex;        
+    align-items: center;    
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
 }
 
-.img1 {
-    
+.img-desafios img{
+    border-radius: 10px;
 }
 
+.img-curiosidade img {
+    border-radius: 10px;
+}
 /* rodape*/
 
 footer {
