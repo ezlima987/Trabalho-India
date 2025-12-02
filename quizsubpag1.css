@@ -30,7 +30,7 @@ body {
 
 header {
     height: 75px;
-    background-color:#527D8F; 
+    background-color:#4F3F7D; 
     display: flex;
     position: fixed;
     width: 100%;
@@ -125,7 +125,7 @@ a {
 
  .botaoEntrar:hover {
     background-color:white;
-    color: black; 
+    color: black;
  }
  
  .ativo {
@@ -158,50 +158,90 @@ a {
 /* conteudo da pagina */
 
 main {
-    color: white;
     flex: 1;
     padding-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.maincontainer {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding-block: 5px;
-    width: 100%;  
+.quiz-container {
+    background-color: white;
+    width: 1250px;
+    height: 700px;
+    padding: 40px 22px;
+    margin: 90px 95px;
+    border-radius: 10px;
+    text-align: center;
 }
 
-.maincontainer h1 {
+.quiz-titulo {
     font-family: "Poppins", sans-serif;
-    font-size: 90px;
+    font-size: 96px;
     font-weight: bold;
+    color: white;
+    margin-bottom: 60px;
 }
 
-.maincontainer h2 {
-    font-family: "Poppins", sans-serif;
-    font-size: 48px;
+.quiz-pergunta {
+    font-size: 26px;
     font-weight: bold;
+    width: 600px;
+    margin: 0 auto 50px auto;
+    color: white;
 }
 
-.maincontainer P {
-    font-family: "Play", sans-serif;
+.quiz-opcoes {
+    width: 80%;
+    margin: 50px auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px 0;
+}
+
+.opcao {
+    width: 45%; 
+    background: #E1E1E1;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: black; 
+}
+
+.opcao input {
+    width: 20px;
+    height: 20px;
+}
+
+.botaoProxima {
+    display: inline-block;
+    background: #6A56A5;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+span {
     font-size: 24px;
 }
-
-.fundoAzul {
-    color: #527D8F;
-    height: 278px ;
-    width: 1266px ;
-    margin-top: 35px;
-    border-radius: 10px;
-}
-
-
 
 /* rodape*/
 
 footer {
     height: 60px;
-    background-color:#527D8F; 
+    background-color:#4F3F7D; 
     display: flex;
     padding-top: 10px;
 }
@@ -234,16 +274,4 @@ footer {
 .rodape nav{
     height: 100%;
     
-}
-
-/* seta */
-
-.arrow {
-    background: white;
-    width: fit-content;
-    padding: 10px;
-    border-radius: 50%;
-    position: fixed;
-    bottom: 90px;
-    right: 20px;
 }
