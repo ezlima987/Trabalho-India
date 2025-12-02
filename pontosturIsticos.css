@@ -1,350 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@1,300&display=swap');
-
-* {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-* {
-    scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-/* cabecalho */
-
-header {
-    height: 75px;
-    background-color:#f0c63f; 
-    display: flex;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-    top: 0;  
-}
-
-
-a {
-    text-decoration: none;
-    color: white;
-    
-}
-
-.container {
-    height: 100%;
-    width: 1200px;
-    min-width: 1050px;
-    display: flex;
-    margin: 0 auto;
-    height: 75px;
-}
-
-.logo{
-    width: 20%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu {
-    width: 60%;
-    height: 100%;
-}
-
-.entrar {
-    width: 10%;
-    height: 100%;
-}
-
-.cadastrar{
-    width: 10%;
-    height: 100%;
-}
-
-.logo img {
-    width: 150px;
-    cursor: pointer;
-}
-
-.container ul{
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    align-items: center;
-    gap: 5px;
-}
-
-.container li{
-    list-style: none;
-    padding: 15px 20px;
-    color: white;
-    cursor: pointer;
-    border-radius: 10px;
-}
-
-.container li:hover {
-    background-color: white;
-    color: black; 
-}
- .container nav{
-    height: 100%;
- }
-
- .entrar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-
- .botaoEntrar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    padding: 15px 20px;
-    border: 2px solid black ;
-    border-radius: 10px;
-    cursor: pointer;
- }
-
- .botaoEntrar:hover {
-    background-color:white;
-    color: black; 
- }
- 
- .ativo {
-    background-color: white;
-    color: black;
-}
- 
-.cadastrar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.botaoCadastrar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    padding: 15px 20px;
-    border: 2px solid white ;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.botaoCadastrar:hover {
-    background-color:white;
-    color: black;
-}
-
-/* conteudo da pagina */
-
-main {
-    color: white;
-    flex: 1;
-    padding-top: 75px;
-}
-
-.maincontainer {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding-block: 5px;
-    width: 100%;  
-}
-
-.maincontainer h1 {
-    font-family: "Poppins", sans-serif;
-    font-size: 90px;
-    font-weight: bold;
-}
-
-.maincontainer h2 {
-    font-family: "Poppins", sans-serif;
-    font-size: 48px;
-    font-weight: bold;
-}
-
-.maincontainer P {
-    font-family: "Play", sans-serif;
-    font-size: 24px;
-}
-
-
-/* rodape*/
-
-footer {
-    height: 60px;
-    background-color:#f0c63f; 
-    display: flex;
-    padding-top: 10px;
-}
-
-.container2 {
-    height: 100%;
-    width: 1200px;
-    min-width: 1050px;
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-}
-
-.rodape ul {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    align-items: center;
-    gap: 20px;
-}
-
-.rodape li {
-    list-style: none;
-    color: white;
-    
-    
-}
-
-.rodape nav{
-    height: 100%;
-    
-}
-
-/* seta */
-
-.arrow {
-    background: white;
-    width: fit-content;
-    padding: 10px;
-    border-radius: 50%;
-    position: fixed;
-    bottom: 90px;
-    right: 20px;
-}
-
-/*
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-    background: #fafafa;
-}
-
-header {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 20px 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    backdrop-filter: blur(10px);
-    background: rgba(255, 255, 255, 0.3);
-}
-
-.logo {
-    color: #E3B600;
-    font-size: 32px;
-    font-weight: 800;
-}
-
-.navegacao a {
-    margin-left: 40px;
-    text-decoration: none;
-    color: #333;
-    font-size: 18px;
-}
-
-.btn-login {
-    padding: 8px 18px;
-    border-radius: 25px;
-    border: 2px solid #E3B600;
-    color: #E3B600;
-}
-
-.pontos-turisticos {
-    width: 100%;
-    padding-top: 120px;
-}
-
-.hero {
+.pontos {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 80px;
+    gap: 40px;
+    padding: 50px 60px;
 }
 
-.hero-text {
-    max-width: 600px;
+.pontos-texto {
+    max-width: 550px;
 }
 
-.hero-text h1 {
-    font-size: 50px;
-    color: #E3B600;
+.pontos-texto h1 {
+    font-size: 45px;
     font-weight: 800;
+    color: #e6c049;
 }
 
-.hero-text p {
-    margin-top: 15px;
+.pontos-texto p {
     font-size: 18px;
-    color: #333;
+    line-height: 1.6;
+    text-align: left;
 }
 
-.hero-img img {
+.pontos-img {
     width: 420px;
     border-radius: 20px;
 }
 
-.content {
-    padding: 50px 80px;
-}
-
-.card {
+.bloco {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
     gap: 40px;
-    margin-bottom: 60px;
 }
 
-.card.reverse {
+.bloco.reverse {
     flex-direction: row-reverse;
 }
 
-.card img {
+.texto {
+    max-width: 520px;
+}
+
+.texto h2 {
+    font-size: 42px;
+    font-weight: 800;
+    color: #e6c049;
+    margin-bottom: 15px;
+}
+
+.texto p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.img-bloco {
     width: 380px;
     border-radius: 20px;
 }
 
-.card .text h2 {
-    color: #E3B600;
-    font-size: 36px;
-}
-
-.card .text p {
-    margin-top: 10px;
-    font-size: 18px;
-    color: #333;
-}
-*/
+@media (max-width: 900px) {
+    .pontos,
+    .bloco {
+        flex-direction: column;
+        text-align: cente

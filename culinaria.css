@@ -186,6 +186,48 @@ main {
     font-size: 24px;
 }
 
+.img img{
+    height:391 ;
+    width:606 ;
+    display: flex;
+    border-radius: 10px;
+}
+
+.img2 img{
+    height: 250;
+    width:333 ;
+    display: flex;
+    border-radius: 10px;
+}
+
+.img3 img{
+     height:261 ;
+    width:347 ;
+    display: flex;
+    border-radius: 10px;
+}
+
+.img4 img{ 
+     height:262 ;
+    width:378 ;
+    display: flex;
+    border-radius: 10px;
+}
+
+.img5 img{
+     height: 278;
+    width:278 ;
+    display: flex;
+    border-radius: 10px;
+}
+
+.img6 img{
+     height: 278;
+    width:371 ;
+    display: flex;
+    border-radius: 10px;
+}
+
 
 /* rodape*/
 

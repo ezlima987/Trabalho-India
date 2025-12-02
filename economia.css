@@ -158,7 +158,7 @@ a {
 /* conteudo da pagina */
 
 main {
-    color: white;
+    background-color: white;
     flex: 1;
     padding-top: 75px;
 }
@@ -168,12 +168,14 @@ main {
     margin: 0 auto;
     padding-block: 5px;
     width: 100%;  
+    
 }
 
 .maincontainer h1 {
     font-family: "Poppins", sans-serif;
     font-size: 90px;
     font-weight: bold;
+    color: #fcfaf7;
 }
 
 .maincontainer h2 {
@@ -185,17 +187,75 @@ main {
 .maincontainer P {
     font-family: "Play", sans-serif;
     font-size: 24px;
+    color: #fcfaf7;
+    
 }
 
 .fundoAzul {
-    color: #527D8F;
+    background-color: #527D8F;
     height: 278px ;
     width: 1266px ;
     margin-top: 35px;
     border-radius: 10px;
+    display: flex; 
+    align-items: center; 
 }
 
+.fundoAzul h1 {
+    padding-left: 40px ;
+}
 
+.fundoAzul p {
+    padding-left: 20px;
+}
+
+.box-texto {
+    width: 45%;
+}
+
+.img1 img {
+    width: 650px;
+    height: 383;
+    position: absolute;
+    top: 95px;
+
+}
+
+.DadosGerais {
+    margin-top: 16px;
+}
+
+.DadosGerais li {
+    width: 40%;
+}
+.setores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;    
+}
+.box-setores {
+    background-color: #527D8F;
+    margin-top: 20px;
+    height: 792px;
+    width: 1220px;
+    border-radius: 10px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    gap: 74px;
+}
+p {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+}
+
+.img1 {
+    
+}
 
 /* rodape*/
 
