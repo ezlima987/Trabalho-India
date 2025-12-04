@@ -38,7 +38,6 @@ header {
     top: 0;  
 }
 
-
 a {
     text-decoration: none;
     color: white;
@@ -98,15 +97,29 @@ a {
     border-radius: 10px;
 }
 
+.container a:hover {
+    color: #191919;
+}
+
 .container li:hover {
     background-color: white;
-    color: black; /* corrigir depois de decidir a paleta */
+    color: black; 
 }
+
  .container nav{
     height: 100%;
  }
 
- .entrar {
+.ativo {
+    background-color: white;
+    color: black;
+}
+ 
+#selecionado {
+    color: #191919;
+}
+
+.entrar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,21 +131,20 @@ a {
     align-items: center;
     color: white;
     padding: 15px 20px;
-    border: 2px solid black ;
+    border: 2px solid white ;
     border-radius: 10px;
     cursor: pointer;
  }
 
  .botaoEntrar:hover {
     background-color:white;
-    color: black; /* ajeitar depois */
+    color: black; 
  }
- 
- .ativo {
-    background-color: white;
+
+ .botaoEntrar:hover a {
     color: black;
-}
- 
+ }
+
 .cadastrar {
     display: flex;
     justify-content: center;
@@ -154,6 +166,10 @@ a {
     background-color:white;
     color: black;
 }
+
+.botaoCadastrar:hover a {
+    color: black;
+ }
 
 /* conteudo da pagina */
 
@@ -203,7 +219,7 @@ main {
 .box-tradicao {
     background-color: #DAF1DE;
     width: 1150px;
-    height: 500px;
+    height: 550px;
     padding: 40px;
     margin-left: 145px;
     margin-right: 145px;
@@ -217,6 +233,10 @@ main {
     gap: 30px;
 }
 
+.box-tradicao h2 {
+    color: #191919;
+}
+
 .sub-box-tradicao {
     display: flex;
     align-items: center;
@@ -227,6 +247,10 @@ main {
     border-radius: 10px;
     width: 503px;
     height: 336px;
+}
+
+.sub-box-tradicao p {
+    color: #1E1E1E;
 }
 
 .box-danca {
@@ -266,7 +290,7 @@ main {
 }
 
 .box-espiritualidade {
-    background-color: white;
+    background-color: #E7E6E5;
     width: 1440px;
     height: 1000px;
     border-top-left-radius: 10px;
@@ -286,6 +310,14 @@ main {
     gap: 40px;
 }
 
+.texto-espiritualidade h2 {
+    color: black ;
+}
+
+.texto-espiritualidade p {
+    color: #1C140D ;
+}
+
 .img3 img {
     border-radius: 10px;
     width: 710px;
@@ -295,7 +327,7 @@ main {
 }
 
 .box-diversidade {
-    background-color: white;
+    background-color: #E7E6E5;
     width: 1440px;
     height: 1050px;
     margin-bottom: 10px;

@@ -98,15 +98,29 @@ a {
     border-radius: 10px;
 }
 
+.container a:hover {
+    color: #191919;
+}
+
 .container li:hover {
     background-color: white;
     color: black; 
 }
+
  .container nav{
     height: 100%;
  }
 
- .entrar {
+.ativo {
+    background-color: white;
+    color: black;
+}
+ 
+#selecionado {
+    color: #191919;
+}
+
+.entrar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,21 +132,20 @@ a {
     align-items: center;
     color: white;
     padding: 15px 20px;
-    border: 2px solid black ;
+    border: 2px solid white ;
     border-radius: 10px;
     cursor: pointer;
  }
 
  .botaoEntrar:hover {
     background-color:white;
+    color: black; 
+ }
+
+ .botaoEntrar:hover a {
     color: black;
  }
- 
- .ativo {
-    background-color: white;
-    color: black;
-}
- 
+
 .cadastrar {
     display: flex;
     justify-content: center;
@@ -154,6 +167,10 @@ a {
     background-color:white;
     color: black;
 }
+
+.botaoCadastrar:hover a {
+    color: black;
+ }
 
 /* conteudo da pagina */
 

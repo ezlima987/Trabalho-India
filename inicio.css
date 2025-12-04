@@ -102,6 +102,11 @@ a {
     background-color: white;
     color: black; /* corrigir depois de decidir a paleta */
 }
+
+.container a:hover {
+    color: #191919;
+}
+
  .container nav{
     height: 100%;
  }
@@ -118,7 +123,7 @@ a {
     align-items: center;
     color: white;
     padding: 15px 20px;
-    border: 2px solid black ;
+    border: 2px solid white;
     border-radius: 10px;
     cursor: pointer;
  }
@@ -128,16 +133,10 @@ a {
     color: black; /* ajeitar depois */
  }
 
- /*
- .ativo {
-    background-color: white;
+ .botaoEntrar:hover a {
     color: black;
-}
+ }
 
-utilizar na pagina selecionada
-
-*/
- 
 .cadastrar {
     display: flex;
     justify-content: center;
@@ -159,6 +158,10 @@ utilizar na pagina selecionada
     background-color:white;
     color: black;
 }
+
+.botaoCadastrar:hover a {
+    color: black;
+ }
 
 /* conteudo da pagina */
 
@@ -189,7 +192,6 @@ main {
     display: block;
 
 }
-
 
 .titulo {
     position: absolute;
@@ -252,6 +254,9 @@ main {
     font-size: 20px;
 }
 
+.cards a {
+    color: #1C140D;
+}
 h1 {
     font-family: "Poppins", sans-serif;
     font-size: 150px;
@@ -269,6 +274,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-size: 24px; 
+    color: black;
     
 }
 

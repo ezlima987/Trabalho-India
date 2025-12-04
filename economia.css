@@ -98,15 +98,29 @@ a {
     border-radius: 10px;
 }
 
+.container a:hover {
+    color: #191919;
+}
+
 .container li:hover {
     background-color: white;
     color: black; 
 }
+
  .container nav{
     height: 100%;
  }
 
- .entrar {
+.ativo {
+    background-color: white;
+    color: black;
+}
+ 
+#selecionado {
+    color: #191919;
+}
+
+.entrar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,7 +132,7 @@ a {
     align-items: center;
     color: white;
     padding: 15px 20px;
-    border: 2px solid black ;
+    border: 2px solid white ;
     border-radius: 10px;
     cursor: pointer;
  }
@@ -127,12 +141,11 @@ a {
     background-color:white;
     color: black; 
  }
- 
- .ativo {
-    background-color: white;
+
+ .botaoEntrar:hover a {
     color: black;
-}
- 
+ }
+
 .cadastrar {
     display: flex;
     justify-content: center;
@@ -155,12 +168,13 @@ a {
     color: black;
 }
 
+.botaoCadastrar:hover a {
+    color: black;
+ }
+
+
 /* conteudo da pagina */
 p {
-    font-size: 20px;
-}
-
-li {
     font-size: 20px;
 }
 
@@ -180,7 +194,7 @@ h2 {
 P {
     font-family: "Play", sans-serif;
     font-size: 24px;
-    color: #fcfaf7;
+    color: black;
     
 }
 
@@ -247,6 +261,9 @@ main {
     padding: 40px;
 }
 
+#h2d {
+    color: #fcfaf7;
+}
 .cards {
     display: flex;
     justify-content: space-between;
@@ -277,7 +294,7 @@ main {
 .desafios li {
     width: 100%;
     font-size: 24px;
-    color: #fcfaf7;
+    color: black;
 }
 
 .desafios p {
@@ -303,6 +320,10 @@ main {
     justify-content: center;
     gap: 30px;
     margin-bottom: 100px;
+}
+
+.texto-curiosidade h2 {
+    color: black;
 }
 
 .img-desafios img{

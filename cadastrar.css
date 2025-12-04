@@ -82,10 +82,15 @@ a {
     border-radius: 10px;
 }
 
+.container a:hover {
+    color: #191919;
+}
+
 .container li:hover {
     background-color: white;
     color: black; /* corrigir depois de decidir a paleta */
 }
+
  .container nav{
     height: 100%;
  }
@@ -102,7 +107,7 @@ a {
     align-items: center;
     color: white;
     padding: 15px 20px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 10px;
     cursor: pointer;
  }
@@ -112,15 +117,9 @@ a {
     color: black; /* ajeitar depois */
  }
 
- /*
- .ativo {
-    background-color: white;
+ .botaoEntrar:hover a {
     color: black;
-}
-
-utilizar na pagina selecionada
-
-*/
+ }
 
 /* conteudo da pagina*/
 
@@ -140,7 +139,7 @@ main{
 
 p {
     font-size: 18px;
-    color: white;
+    color: black;
 }
 
 h1 {

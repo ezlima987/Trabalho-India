@@ -97,15 +97,29 @@ a {
     border-radius: 10px;
 }
 
+.container a:hover {
+    color: #191919;
+}
+
 .container li:hover {
     background-color: white;
     color: black; 
 }
+
  .container nav{
     height: 100%;
  }
 
- .entrar {
+.ativo {
+    background-color: white;
+    color: black;
+}
+ 
+#selecionado {
+    color: #191919;
+}
+
+.entrar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,20 +131,19 @@ a {
     align-items: center;
     color: white;
     padding: 15px 20px;
-    border: 2px solid black ;
+    border: 2px solid white ;
     border-radius: 10px;
     cursor: pointer;
  }
 
  .botaoEntrar:hover {
     background-color:white;
-    color: black; /* ajeitar depois */
+    color: black; 
  }
 
- .ativo {
-    background-color: white;
+ .botaoEntrar:hover a {
     color: black;
-}
+ }
 
 .cadastrar {
     display: flex;
@@ -154,12 +167,24 @@ a {
     color: black;
 }
 
+.botaoCadastrar:hover a {
+    color: black;
+ }
+
 /* conteudo da pagina */
 
 main {
     color: white;
     flex: 1;
     padding-top: 75px;
+}
+
+p {
+    color: black;
+}
+
+h1 {
+    color: black;
 }
 
 .maincontainer {
@@ -229,6 +254,7 @@ main {
 }
 
 
+
 /* rodape*/
 
 footer {
@@ -279,224 +305,3 @@ footer {
     bottom: 90px;
     right: 20px;
 }
-
-/*
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: "Work Sans", sans-serif;
-}
-
-html, body {
-    height: 100%;
-}
-
-body {
-   background-color: #ffffff; 
-    color: #7c5050;
-   
-}
-
-.container {
-    width: 80%;
-    background-color: #bf4648;
-    margin: 0 auto;
-    padding: 20px 40px;
-    box-sizing: border-box;
-}
-
-header {
-     height: 75px;
-    background-color: #bf4648;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    display: flex;
-    align-items: center;
-    padding-left: 40px;
-}
-
-header h1 {
-    color: white;
-    font-size: 26px;
-    font-weight: 600
-}
-
-nav {
-    background-color: #bf4648;
-    padding: 12px 0;
-    margin-bottom: 40px;
-    margin-top: 75px; 
-    border-radius: 6px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-
-nav ul {
-  display: flex;
-    justify-content: center;
-    list-style: none;
-    gap: 12px;
-}
-
-nav li a {
-       color: white;
-    font-weight: 600;
-    padding: 6px 14px;
-    border-radius: 4px;
-    transition: 0.3s;
-}
-
-nav li a.active {
-    background-color: #ffffff;
-    color: #bf4648;
-}
-
-nav li a:hover {
-    background-color: #ffffff;
-    color: #bf4648;
-}
-
-h1, h3 {
-    color: #ffffff;
-    letter-spacing: 1px;
-}
-
-h1 {
-   color: #bf4648;
-    font-size: 46px;
-    font-weight: 700;
-    margin-bottom: 15px;
-}
-
-h3 {
-    color:#984b4b;
-    font-size: 36px;
-    text-transform: uppercase;
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
-
-.card {
-    background-color: #e9e9e9;
-    border-left: 8px solid #bf4648;
-    padding: 25px;
-    display: flex;
-    gap: 25px;
-    border-radius: 12px;
-    margin-bottom: 30px;
-}
-
-.card img {
-    width: 45%;
-    border-radius: 12px;
-    object-fit: cover;
-}
-
-.card-text {
-    width: 55%;
-    margin-right: 20px;
-}
-
-.card-text h3 {
-    margin-bottom: 10px;
-    font-size: 22px;
-    color: #fdfdfd;
-}
-
-.card-text p {
-    line-height: 1.55;
-}
-
-.card img {
-    width: 35%;
-    border-radius: 12px;
-    object-fit: cover;
-}
-
-
-.section-box {
-    background-color: #e9e9e9;
-    padding: 20px;
-    border-left: 8px solid #bf4648;
-    border-radius: 12px;
-    margin-bottom: 25px;
-}
-
-.section-box h3 {
-       font-size: 22px;
-    color: #bf4648;
-    margin-bottom: 10px;
-}
-
-.prato-card {
-    background-color: #e9e9e9;
-    border-left: 8px solid #bf4648;
-    display: flex;
-    padding: 18px;
-    border-radius: 12px;
-    margin-bottom: 25px;
-    gap: 20px;
-}
-
-.prato-card img {
-    width: 32%;
-    border-radius: 12px;
-    object-fit: cover;
-}
-
-.prato-card-text {
-    width: 68%;
-}
-
-.prato-card-text h3 {
-    color: #bf4648;
-    margin-bottom: 6px;
-}
-
-
-.dupla {
-    display: flex;
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.dupla .prato-card {
-    width: 50%;
-}
-
-
-footer {
-     height: 70px;
-    background-color: #bf4648;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-}
- 
-footer p {
-    color: white;
-    font-weight: 500;
-} 
-
-.arrow {
-    background: white;
-    padding: 12px;
-    border-radius: 50%;
-    position: fixed;
-    bottom: 90px;
-    right: 20px;
-    cursor: pointer;
-     box-shadow: 0px 0px 8px #0004;
-}
-
-*/
